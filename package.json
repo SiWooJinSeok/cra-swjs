@@ -1,6 +1,6 @@
 {
   "name": "cra-swjs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "my create react app boilerplate",
   "main": "index.js",
   "repository": "https://github.com/SiWooJinSeok/cra-swjs",
@@ -9,6 +9,9 @@
   "scripts": {
     "build": "webpack --mode=production",
     "start": "webpack serve --mode=development"
+  },
+  "bin": {
+    "cra-swjs": "./bin/generator.js"
   },
   "keywords": [
     "cra",
