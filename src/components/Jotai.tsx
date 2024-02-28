@@ -3,7 +3,7 @@ import React from "react";
 import styled from "styled-components";
 import Button from "./Button/Button";
 
-const countAtom = atom(0);
+export const countAtom = atom(0);
 
 export default function Jotai() {
   const [count, setCount] = useAtom(countAtom);
