@@ -1,6 +1,6 @@
 {
   "name": "cra-swjs",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "description": "my create react app boilerplate",
   "main": "index.js",
   "repository": "https://github.com/SiWooJinSeok/cra-swjs",
@@ -35,6 +35,7 @@
     "@storybook/react": "^7.6.16",
     "@storybook/react-webpack5": "^7.6.16",
     "@storybook/test": "^7.6.16",
+    "@types/axios": "^0.14.0",
     "@types/node": "^20.11.17",
     "@types/react": "^18.2.55",
     "@types/react-dom": "^18.2.19",
