@@ -1,6 +1,6 @@
 {
   "name": "cra-swjs",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "my create react app boilerplate",
   "main": "index.js",
   "repository": "https://github.com/SiWooJinSeok/cra-swjs",
@@ -52,6 +52,7 @@
     "jotai": "^2.6.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.1",
     "styled-components": "^6.1.8",
     "typescript": "^5.3.3"
   }

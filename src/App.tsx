@@ -1,18 +1,17 @@
 import React from "react";
+import { Outlet } from "react-router-dom";
+import Nav from "./components/Nav";
 import styled from "styled-components";
 
 export default function App() {
   return (
-    <Container>
-      <h1>hello SWJS</h1>
-    </Container>
+    <Wrapper>
+      <Nav />
+      <Outlet />
+    </Wrapper>
   );
 }
 
-const Container = styled.div`
-  margin: 100px auto;
-  border: 1px solid #000;
-  width: 300px;
-  height: 300px;
+const Wrapper = styled.div`
   text-align: center;
 `;
