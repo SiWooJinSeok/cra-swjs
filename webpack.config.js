@@ -1,4 +1,5 @@
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const webpack = require("webpack");
 
 const path = require("path");
 
@@ -14,6 +15,9 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       template: "./public/index.html", // 번들링 파일을 주입하여 번들링 폴더로 복사할 대상 HTML 파일을 설정
+    }),
+    new webpack.ProvidePlugin({
+      React: "react",
     }),
   ],
   devServer: {
